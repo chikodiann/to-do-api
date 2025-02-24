@@ -10,10 +10,10 @@ public class ApiPaths {
 
     public static final class ToDo {
         public static final String ROOT = BASE_API + "/todo";
-        public static final String GET_ALL = ROOT;
         public static final String GET_BY_ID = ROOT + "/{id}";
-        public static final String CREATE = ROOT;
         public static final String UPDATE = ROOT + "/{id}";
-        public static final String DELETE = ROOT + "/{id}";
+        public static final String TEMPORAL_DELETE = ROOT + "/{id}";
+        public static final String PERMANENT_DELETE = ROOT + "/hard-delete/{id}";
+
     }
 }
