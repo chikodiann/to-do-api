@@ -1,4 +1,5 @@
-### **📜 Complete `README.md` for To-Do API**
+Here's an updated **README.md** template for your To-Do API project, ready for submission:
+
 ```md
 # 📌 To-Do List API
 
@@ -11,14 +12,14 @@
 - ✅ **Soft Delete To-Do Items** (Mark as deleted instead of hard delete)
 - ✅ **Role-Based Access Control (RBAC)** (Users vs Admins)
 - ✅ **Swagger API Documentation**
-- ✅ **Deployed to Heroku/AWS (if applicable)**
+- ✅ **Deployed to AWS**
 
 ---
 
 ## 🛠️ Technology Stack
 - **Spring Boot** - Backend Framework
 - **Spring Data JPA** - Database ORM
-- **H2 / MySQL** - Database
+- **MySQL** - Database
 - **Lombok** - Reducing Boilerplate Code
 - **JWT (JSON Web Tokens)** - Security & Authentication
 - **Swagger UI** - API Documentation
@@ -109,7 +110,7 @@ curl -X DELETE "http://localhost:8080/api/todo/1"
 
 ## 🎯 Future Improvements
 - ✅ **Implement Soft Delete with "Restore Task" Option**
-- ✅ **Deploy to AWS/Heroku**
+- ✅ **Deploy to AWS**
 - ✅ **Unit Tests with JUnit & Mockito**
 - ✅ **Add Authentication using JWT Tokens**
 
